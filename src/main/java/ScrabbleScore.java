@@ -54,7 +54,7 @@ public class ScrabbleScore {
       } else if (charWord[i] == 'q' || charWord[i] == 'z'){
         finalOutput = finalOutput + 10;
       }
-    } String stringOutput = String.valueOf(finalOutput);
-      return stringOutput;
+    } String hello = String.valueOf(finalOutput);
+      return hello;
   }
 }
