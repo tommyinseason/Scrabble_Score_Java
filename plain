@@ -1,0 +1,18 @@
+Behaviours:
+
+ScrabbleScore will take a string/word from the user and return a value based off of the assigned values of each letter.
+
+ScrabbleScore will take input string and split into array.
+
+Chars will be assigned values based on legend:
+  a,e,i,o,u,l,n,r,s,t each equal 1
+  d,g each equal 2
+  b,c,m,p each equal 3
+  f,h,v,w,y each equal 4
+  k equals 5
+  j,x each equal 8
+  q,z each equal 10
+
+Values from each character will be added together into output integer.
+
+Output integer will be outputted to user.
